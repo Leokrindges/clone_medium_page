@@ -10,7 +10,7 @@ class HomeMediumPage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 50.0),
+          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 40.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -44,7 +44,7 @@ class HomeMediumPage extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Divider(
-                      color: Colors.grey,
+                      color: Colors.black,
                       key: const ValueKey('DividerLeft'),
                     ),
                   ),
@@ -52,12 +52,12 @@ class HomeMediumPage extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Text(
                       'Or, sign up with',
-                      style: TextStyle(fontSize: 15, color: Colors.grey),
+                      style: TextStyle(fontSize: 15),
                     ),
                   ),
                   Expanded(
                     child: Divider(
-                      color: Colors.grey,
+                      color: Colors.black,
                       key: const ValueKey('DividerRight'),
                     ),
                   ),
